@@ -1,0 +1,206 @@
+
+///////////////////// Fonts /////////////////////////
+
+h2, h3 {
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+.about-main-image {
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("/img/stock_photos/background-grapes-1300x512.png");
+	background-position: center center;
+    width: 100%;
+	height: 400px;
+	padding: 0 !important;
+		h2 {
+			text-align: center;
+			padding-top: 150px;
+			line-height: 2em;
+			font-weight: 900;
+			font-size: 2.5em;
+			span {
+				// color: red;
+			}
+
+		}
+
+}
+
+.container-fluid {
+		background-color: #F5F5F5;
+		color: #555;
+
+		h2 {
+			padding-top: 40px;
+			color: #5F5B5B;
+		}
+
+	.wine-story {
+		padding: 20px 15% 40px 15%;
+	
+		
+		p {
+			line-height: 2em;
+			font-size: 1.25em;
+		}
+		@media only screen and (max-width: 600px) {
+			padding: 20px 2% 40px 2%;
+		}
+	}
+}
+
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  // justify-content: space-around;
+  @media only screen and (max-width: 6ps00px) {
+  	flex-direction: column;
+		
+	}
+
+
+.flex-item {
+  width: 33.3%;
+  height: 400px;
+
+}
+@media only screen and (max-width: 600px) {
+.flex-item:nth-of-type(4) { order: 7; }
+.flex-item:nth-of-type(7) { order: 4; }
+
+
+}
+.flex-images {
+	width: 100%;
+	height: 400px;
+}
+
+.item-1 {
+	width: 40%;
+	@media only screen and (max-width: 900px) {
+		width: 50%;
+	}
+	@media only screen and (max-width: 600px) {
+		width: 100%;
+	}
+
+}
+
+.item-2 {
+	width: 30%;
+	@media only screen and (max-width: 900px) {
+		width: 50%;
+	}
+		@media only screen and (max-width: 600px) {
+		width: 100%;
+	}
+}
+
+.item-3 {
+	width: 30%;
+	@media only screen and (max-width: 900px) {
+		display: none;
+	}
+}
+
+.item-4 {
+	width: 40%;
+	@media only screen and (max-width: 900px) {
+		width: 50%;
+	}
+	@media only screen and (max-width: 600px) {
+		width: 100%;
+
+	}
+
+}
+
+.item-5 {
+	width: 30%;
+
+			@media only screen and (max-width: 900px) {
+		display: none;
+	}
+}
+
+.item-6 {
+	width: 30%;
+		@media only screen and (max-width: 900px) {
+		width: 50%;
+	}
+	@media only screen and (max-width: 600px) {
+		width: 100%;
+	}
+
+}
+
+.item-7 {
+	width: 40%;
+	@media only screen and (max-width: 900px) {
+		width: 50%;
+	}
+	@media only screen and (max-width: 600px) {
+		width: 100%;
+	}
+
+}
+
+.item-8 {
+	width: 30%;
+
+			@media only screen and (max-width: 900px) {
+		display: none;
+	}
+}
+
+.item-9 {
+	width: 30%;
+		@media only screen and (max-width: 900px) {
+		width: 50%;
+	}
+	@media only screen and (max-width: 600px) {
+		width: 100%;
+	}
+
+}
+
+.more-info {
+	text-align: center;
+	h3 {
+		padding: 140px 20px 20px 20px;
+	}
+	button {
+		  background-color: Transparent;
+          background-repeat:no-repeat;
+          padding: 10px;
+          border: 2px solid #fff;
+          cursor:pointer;
+          overflow: hidden;
+          text-transform: uppercase;
+	}
+	button:hover {
+		border: 3px solid #7f1a1a;
+		color: #F5F5F5;
+	}
+}
+
+}
+
+

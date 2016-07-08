@@ -1,0 +1,147 @@
+h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  text-align: center; }
+
+p {
+  font-family: 'Lato', sans-serif; }
+
+.more-info-contact {
+  padding: 20px 10% 40px 10%; }
+  .more-info-contact h3 {
+    font-size: 2em; }
+  .more-info-contact p {
+    line-height: 2em;
+    font-size: 1.25em;
+    text-indent: 40px; }
+
+.map-responsive {
+  overflow: hidden;
+  /*padding-bottom:56.25%;*/
+  position: relative;
+  height: 0; }
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 400px;
+  width: 100%;
+  position: absolute; }
+
+div.col-md-8.map-responsive {
+  height: 500px; }
+
+#contact {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: #eee;
+  color: #555; }
+
+h2.contact-title {
+  margin-top: -2%;
+  padding-top: 30px;
+  margin-bottom: -1%;
+  text-align: center; }
+  @media only screen and (max-width: 600px) {
+    h2.contact-title {
+      margin-top: -15%; } }
+
+.container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 50px 10% 50px 10%; }
+
+#contact .container form input,
+#contact .container form textarea {
+  width: 97.4%;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #999;
+  letter-spacing: 1px;
+  background: #FFF;
+  border: 2px solid #FFF;
+  margin-bottom: 25px;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out; }
+
+#contact .container form input:focus,
+#contact .container form textarea:focus {
+  border: 2px solid #dd4545;
+  color: #999; }
+
+#contact .container form textarea {
+  height: 150px; }
+
+#contact .container form .submit {
+  width: 40%;
+  margin-left: 30%;
+  padding: 5px 10px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  background: #7f1a1a;
+  height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #FFF;
+  border: 2px solid #b43838;
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out; }
+
+#contact .container form .submit:hover {
+  color: #FFF;
+  border: 2px solid #dd4545;
+  background: #8D1628;
+  cursor: pointer; }
+
+#contact .container form .required {
+  color: #b43838; }
+
+input#checkbox-toggle {
+  width: 30px !important;
+  display: inline; }
+  @media only screen and (max-width: 600px) {
+    input#checkbox-toggle {
+      height: 5px;
+      margin-bottom: 0; } }
+
+select#enquiry {
+  width: 150px; }
+
+select.quantity {
+  -webkit-appearance: menulist; }
+
+.contact-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/stock_photos/wine-contact-1300x867.png");
+  height: 370px;
+  padding: 0 !important;
+  background-repeat: no-repeat;
+  color: #fff; }
+  .contact-background h2 {
+    padding-top: 100px;
+    color: #fff;
+    font-size: 2.5em; }
+  .contact-background h4 {
+    padding: 20px 20px 20px 20px;
+    font-size: 1.5em;
+    line-height: 1.5em; }
+
+.checkbox-style label {
+  text-indent: -15px; }
+.checkbox-style input {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: -1px;
+  overflow: hidden; }
+
+/*# sourceMappingURL=contact.css.map */
